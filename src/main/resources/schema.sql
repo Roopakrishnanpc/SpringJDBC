@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS SpringJDBCDemo;
+
+CREATE TABLE SpringJDBCDemo (
+    id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    position VARCHAR(255) NOT NULL
+);
